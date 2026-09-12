@@ -1,0 +1,11 @@
+# Disable directory browsing
+Options -Indexes
+
+<FilesMatch "\.(sql|htaccess|md)$">
+    Require all denied
+</FilesMatch>
+
+# Prevent access to config
+<Files "config.php">
+    Require all denied
+</Files>
