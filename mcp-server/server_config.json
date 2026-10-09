@@ -1,0 +1,16 @@
+{
+  "app": {
+    "name": "CodeQuest",
+    "version": "unknown",
+    "description": "Learning platform built with PHP for coding quests and challenges"
+  },
+  "stack": "php",
+  "routes": [],
+  "pages": [],
+  "base_url": "http://localhost:8000",
+  "module": null,
+  "scripts": {},
+  "server": "mcp-server/server.php",
+  "runner": "php",
+  "runner_cmd": "php"
+}
