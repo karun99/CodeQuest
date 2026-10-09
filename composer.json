@@ -1,0 +1,11 @@
+{
+  "name": "karun99/codequest",
+  "description": "CodeQuest \u2014 LAN-deployable coding debugging assessment platform (PHP + MySQL): aptitude \u2192 programming \u2192 debugging three-tier exams, case studies, timed assessments, automated scoring, anti-cheat, CSV/JSON/PDF export",
+  "type": "project",
+  "require": {
+    "php": ">=8.0"
+  },
+  "scripts": {
+    "serve": "php -S 0.0.0.0:8000"
+  }
+}
