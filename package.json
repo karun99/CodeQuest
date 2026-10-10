@@ -1,0 +1,8 @@
+{
+  "name": "codequest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Front-end asset tooling for CodeQuest.",
+  "scripts": { "lint": "echo noop" },
+  "license": "MIT"
+}
