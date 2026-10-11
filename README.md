@@ -82,6 +82,19 @@ CoderQuest/
 - **Import/Export**: CSV (UTF-8 BOM), JSON, PDF (or print-to-PDF fallback). Questions/candidates import with preview, validation, transactional commit, and import logging.
 - **Security**: bcrypt passwords, PDO prepared statements, CSRF tokens, HTML escaping, session-based auth.
 
+## MCP Server
+
+CodeQuest ships a dependency-free Model Context Protocol server so agents and assistants
+can inspect the project (schema, exam levels, docs) without a database.
+
+```bash
+node mcp/server.js   # or: npm run mcp
+```
+
+Tools: `codequest_info`, `codequest_schema`, `codequest_exam_levels`, `codequest_list_docs`,
+`codequest_get_doc`, `codequest_health`. See [`mcp/README.md`](mcp/README.md) and
+[`glama.json`](glama.json) for the [glama.ai](https://glama.ai) listing.
+
 ## Quick Start with PHP Built-in Server
 
 For local smoke tests without Apache:

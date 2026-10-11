@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Front-end asset tooling for CodeQuest.",
-  "scripts": { "lint": "echo noop" },
+  "scripts": { "lint": "echo noop", "mcp": "node mcp/server.js" },
+  "bin": { "codequest-mcp": "mcp/server.js" },
   "license": "MIT"
 }
